@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                IRON<span>PULSE</span>
+            </div>
+
+            <div class="nav-content">
+                <ul>
+                    <li><a href="#classes">CLASSES</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#trainers">TRAINERS</a></li>
+                    <li><a href="#pricing">PRICING</a></li>
+                    <li><a href="#testimonials">TESTIMONIALS</a></li>
+                </ul>
+                <!-- id is the standard way for page links since ids are unique (one per page). Classes can be on multiple elements, so the link might not scroll to the right one.That's why used id here to link. -->
+                <button>JOIN NOW</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>
+                    FORGE YOUR <br>
+                    <span class="span-1">BEST</span><br>
+                    <span class="span-2">BODY</span>
+                </h1>
+                <p>Where champions are made. Cutting-edge equipment,<br> elite-coaching, and a community that pushes you beyond<br> limits.</p>
+                <div class="hero-btn">
+                    <button class="pink">START TRAINING</button>
+                    <button class="black">VIEW CLASSES</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-bar">
+            <div class="stat">
+                <div class="stat-num">12K+</div>
+                <div class="stat-label">ACTIVE<br> MEMBERS</div>
+            </div>
+            <div class="stat">
+                <div class="stat-num">85+</div>
+                <div class="stat-label">WEEKLY<br> CLASSES</div>
+            </div>
+            <div class="stat">
+                <div class="stat-num">32</div>
+                <div class="stat-label">ELITE<br> TRAINERS</div>
+            </div>
+            <div class="stat">
+                <div class="stat-num">20+</div>
+                <div class="stat-label">YEARS OF<br>EXCELLENCE</div>
+            </div>
+            <div class="stat">
+                <div class="stat-num">24/7</div>
+                <div class="stat-label">ALWAYS<br> OPEN</div>
+            </div>
+        </div>
+
+        <div class="classes" id="classes">
+            <div class="class-header">
+                <p class="small">WHAT WE OFFER</p>
+                <p class="big">ELITE CLASSES</p>
+            </div>
+            <div class="class-btn">
+                <button>VIEW ALL &rarr;</button>
+            </div>
+        </div>
+
+        <div class="classes-grid">
+            <div class="class-card">
+                <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800&q=80" alt="">
+                <div class="card">
+                    <div class="class-type">Weights - Mon / Wed / Fri</div>
+                    <p class="class-title">STRENGTH & POWER</p>
+                    <p class="class-info">Build raw strength with compound lifts under expert supervision.</p>
+                </div>
+            </div>
+            <div class="class-card">
+                <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80" alt="">
+                <div class="card">
+                    <div class="class-type">Cardio - Daily</div>
+                    <p class="class-title">HIT INFERNO</p>
+                    <p class="class-info">High-intensity interval training to torch calories and ignite your metabolism.</p>
+                </div>
+            </div>
+            <div class="class-card">
+                <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80" alt="">
+                <div class="card">
+                    <div class="class-type">Mind & Body - Tue / Thurs / Sat</div>
+                    <p class="class-title">YOGA FLOW</p>
+                    <p class="class-info">Restore flexibility, reduce stress, and sharpen your mental focus with guided practice.</p>
+                </div>
+            </div>
+            <div class="class-card">
+                <img src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=800&q=80" alt="">
+                <div class="card">
+                    <div class="class-type">Combat - Mon / Wed / Sat</div>
+                    <p class="class-title">BOXING STRIKE</p>
+                    <p class="class-info">Learn technique, footwork, and power from championship-level boxing coaches.</p>
+                </div>
+            </div>
+            <div class="class-card">
+                <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80" alt="">
+                <div class="card">
+                    <div class="class-type">Cardio - Tue / Thurs / Sat</div>
+                    <p class="class-title">CYCLE SURGE</p>
+                    <p class="class-info">Push through intense cycling sprints with pumping music and top instructors.</p>
+                </div>
+            </div>
+            <div class="class-card">
+                <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=800&q=80" alt="">
+                <div class="card">
+                    <div class="class-type">Functional - Daily</div>
+                    <p class="class-title">CROSS FORCE</p>
+                    <p class="class-info">Functional movements at high intensity — build athletic performance from the ground up.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about">
+            <div class="about-image" id="about">
+                <img src="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=900&q=80" alt="">
+            </div>
+            <!-- Otherwise the ::after pseudo-element won't work directly on an <img> tag. -->
+            <div class="about-content">
+                <p class="pink-text">Our Story</p>
+                <p class="heading">More than a Gym</p>
+                <p class="about-gym">IronPulse was founded on one belief: every person carries an athlete within. Since 2009, we've built a space where that athlete can emerge — equipped with world-class facilities, expert guidance, and a community that refuses to settle.</p>
+                <ul class="features-list">
+                    <li>20,000 sq ft of premium training space</li>
+                    <li>State-of-the-art strength & cardio equipment</li>
+                    <li>Recovery zone with sauna & ice bath</li>
+                    <li>Nutrition bar & supplement lounge</li>
+                    <li>Personal training & custom programs</li>
+                    <li>Members-only app & progress tracking</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="trainers" id="trainers">
+            <p class="pink">The Team</p>
+            <p class="heading">Meet your<br> coaches</p>
+            <div class="coaches">
+                <div class="coach-card">
+                    <img src="https://i.pinimg.com/736x/2f/71/5a/2f715a6ebf565a96f83a4ee453389cee.jpg" alt="">
+                    <div class="biodata">
+                        <p class="name">Marcus Reid</p>
+                        <p class="role">Strength & Powerlifting</p>
+                    </div>
+                </div>
+                <div class="coach-card">
+                    <img src="https://i.pinimg.com/736x/1f/31/98/1f3198b75350899bed303c44dec0aec5.jpg" alt="">
+                    <div class="biodata">
+                        <p class="name">Sofia Chen</p>
+                        <p class="role">Hiit & Functional</p>
+                    </div>
+                </div>
+                <div class="coach-card">
+                    <img src="https://i.pinimg.com/1200x/fb/94/70/fb94706b6a9453f9f9b83b69a2ec01c6.jpg" alt="">
+                    <div class="biodata">
+                        <p class="name">Jay Patel</p>
+                        <p class="role">Boxing & Combat</p>
+                    </div>
+                </div>
+                <div class="coach-card">
+                    <img src="https://i.pinimg.com/736x/42/3e/3e/423e3ed77174e8731e1cb51725f04438.jpg" alt="">
+                    <div class="biodata">
+                        <p class="name">Elena Ross</p>
+                        <p class="role">Yoga & Recovery</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pricing" id="pricing">
+            <p class="memberships">Memberships</p>
+            <p class="pricing-header">Choose your Plan</p>
+            <div class="plans-grid">
+                <div class="plan-card">
+                    <p class="plan-name">Basic</p>
+                    <p class="plan-price">₹999 </p>
+                    <p class="plan-month">/ mo</p>
+                    <div class="plan-divider"></div>
+                    <div class="plan-features">
+                        <ul>
+                            <li>Gym Floor Access</li>
+                            <li>Locker Room</li>
+                            <li>5 Group Classes / mo</li>
+                            <li>Member App</li>
+                        </ul>
+                    </div>
+                    <button class="plan-btn">Get Started</button>
+                </div>
+
+                <div class="plan-card featured">
+                    <p class="plan-badge">Most Popular</p>
+                    <p class="plan-name">Elite</p>
+                    <p class="plan-price">₹1,999 </p>
+                    <p class="plan-month">/ mo</p>
+                    <div class="plan-divider"></div>
+                    <div class="plan-features">
+                        <ul>
+                            <li>Unlimited Access 24/7</li>
+                            <li>All Group Classes</li>
+                            <li>2 PT Sessions / mo</li>
+                            <li>Nutrition Consultation</li>
+                            <li>Recovery Zone Access</li>
+                        </ul>
+                    </div>
+                    <button class="plan-btn">Join Elite</button>
+                </div>
+
+                <div class="plan-card">
+                    <p class="plan-name">Pro</p>
+                    <p class="plan-price">₹3,499 </p>
+                    <p class="plan-month">/ mo</p>
+                    <div class="plan-divider"></div>
+                    <div class="plan-features">
+                        <ul>
+                            <li>Everything in Elite</li>
+                            <li>8 PT Sessions / mo</li>
+                            <li>Custom Meal Plan</li>
+                            <li>Body Composition Analysis</li>
+                            <li>Priority Class Booking</li>
+                        </ul>
+                    </div>
+                    <button class="plan-btn">Go Pro</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonials" id="testimonials">
+            <div class="testi-header">
+                <div class="section-tag">Real Results</div>
+                <div class="section-title">What Members Say</div>
+            </div>
+            <div class="testi-grid">
+                <div class="testi-card">
+                    <div class="testi-stars">★★★★★</div>
+                    <p class="testi-text">
+                        "IronPulse completely transformed my life. I lost 18kg in 5 months with the help of my trainer and the HIIT classes. This place is unlike any gym I've ever been to."
+                    </p>
+                    <div class="testi-author">
+                        <img src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?w=100&q=80" alt="" class="testi-avatar">
+                        <div>
+                            <p class="testi-name">Priya Sharma</p>
+                            <p class="testi-since">Member since 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-card">
+                    <div class="testi-stars">★★★★★</div>
+                    <p class="testi-text">
+                        "The coaches here are world-class. Marcus pushed me harder than I ever pushed myself and I hit a 180kg deadlift PR last month. Worth every rupee."
+                    </p>
+                    <div class="testi-author">
+                        <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?w=100&q=80" alt="" class="testi-avatar">
+                        <div>
+                            <p class="testi-name">Arjun Mehta</p>
+                            <p class="testi-since">Member since 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-card">
+                    <div class="testi-stars">★★★★★</div>
+                    <p class="testi-text">
+                        "The Yoga Flow classes are incredible. After months of back pain I can finally move freely. The recovery zone is a game-changer for anyone training hard."
+                    </p>
+                    <div class="testi-author">
+                        <img src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?w=100&q=80" alt="" class="testi-avatar">
+                        <div>
+                            <p class="testi-name">Sneha Kapoor</p>
+                            <p class="testi-since">Member since 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
